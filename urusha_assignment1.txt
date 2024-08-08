@@ -1,0 +1,78 @@
+Python Libraries
+
+Pandas :
+- used in data analysis, data manipulation and cleaning of data.
+- supports operations like Sorting , Re-indexing, iteration, Aggregation , Concatenation , Visualization.
+- suited for working with tabular data such as spreadsheey or sql tables.
+- key components :  
+    . Series : single column of data
+    . DataFrame : table with rows and column (eg:table)
+
+
+    Name    Age  City
+0   Person1 25   Pokhara
+1   Person2 30   Kathmandu
+2   Person3 35   Bhaktapur
+
+Panda operations that can be performed
+. get specific column
+. get specific row by index
+. filter data (eg:person who lives in Kathmandu )
+. add new column
+. update a value
+. save data (i.e: csv format)
+
+Numphy : 
+- used for numerical computing
+- helps you work with arrays and perform mathematical operations
+- key Components:
+    . Array
+    . Array Operation
+
+Operations with Numpy
+. creating array (e.g. 1D array , 2D array)
+. perform mathematical operation (Addition,Multiplication,)
+. utilize functions for various numerical computation (mean, standard deviation))
+
+Tensorflow:
+- used to design, build, and train deep learning models
+- helps to create complex algorithms that can learn from data and make predictions.
+
+Key Concepts
+    . Nodes : represents mathematical operations
+    . Edges / Tensor : representas multidimensional data arrays called tensors.
+    . Computational Graph : is used to represent complex calculations , basically represents 
+                            series of Tensorflow operations arranged in graph of nodes.
+    . Model Building: set of algorithm that learns from data.
+
+Example to understand Tensorflow
+a+b=c 
+a and b are input tensors
+add is nodesc is resultant tensors
+
+Operations with Tensorflow
+. creating tensor (1D tensor(vector) , 2D tensor (Matrix))
+. tensor operation (Addition, multiplication)
+. building and training simple model and make predictions
+
+
+Keras:
+-part of Tensorflow library and used for building and training neural networks
+
+Key Concepts
+    . Models: is basic data structure that describes how data flows through layers to make prediction
+    . Layers: components of models which are fed input , process information and provide output
+    . Compilation: defining how to set up model so that model learns from data.
+    . Training : process of feeding data into model and adjusting model's parameter to improve performance
+
+Application of Keras : Image and video processing, Natural Language Processing
+
+Pytorch :
+- allows to perform efficient computation and 
+
+Key Concepts
+    . Tensor : multidimensional array variables used as foundation for all advanced operations.
+    . Computationa Graph : used to track and perform calculation
+    . Variable : stored data 
+    . Modules : essential to create and train neural
+
